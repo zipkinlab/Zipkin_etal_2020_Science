@@ -1,7 +1,7 @@
-### This folder contains the code to run the composition analysis.
+## This folder contains the code to run the composition analysis.
 __________________________________________________________________________________________________________________________________________
 
-## Code
+### Code
 This folder contains the code to run the composition analysis using data from observed species.
 
 1. NMDS_wrapper.R      
