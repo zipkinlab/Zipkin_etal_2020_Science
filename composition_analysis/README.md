@@ -1,5 +1,4 @@
 ## This folder contains the code to run the composition analysis.
-__________________________________________________________________________________________________________________________________________
 
 ### Code
 This folder contains the code to run the composition analysis using data from observed species.
