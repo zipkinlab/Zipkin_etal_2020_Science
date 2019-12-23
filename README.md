@@ -13,11 +13,11 @@ ________________________________________________________________________________
 Biodiversity is declining at unprecedented rates worldwide. Yet, cascading effects of biodiversity loss on other taxa are largely unknown because baseline data are often unavailable. We document the collapse of a Neotropical snake community after the invasive fungal pathogen Batrachochytrium dendrobatidis caused a chytridiomycosis epizootic leading to the catastrophic loss of amphibians, a food source for snakes. Following mass mortality of amphibians, the snake community contained fewer species and was more homogeneous across the study site, despite no other systematic changes in the environment. The demise of the snake community following amphibian loss demonstrates the repercussive and often unnoticed consequences of the biodiversity crisis and calls attention to the invisible declines of rare and data deficient species.
 
 ## Code 
-1. [body_condition_analysis]https://github.com/ezipkin/snake_community_model/tree/master/body_condition_analysis/): This folder contains the code to run the body condition analyses for the six species with a sufficient number of samples pre- and post-epizootic.
+1. [body_condition_analysis](https://github.com/ezipkin/snake_community_model/tree/master/body_condition_analysis/): This folder contains the code to run the body condition analyses for the six species with a sufficient number of samples pre- and post-epizootic.
 
-2. [community occurrence model]https://github.com/ezipkin/snake_community_model/tree/master/community_occurrence_model/): This folder contains the code to run the community occurrence model. The wrapper includes code to calcuate species richness, individual species occurrence rates, and detection rates for both observed and unobserved species.
+2. [community occurrence model](https://github.com/ezipkin/snake_community_model/tree/master/community_occurrence_model/): This folder contains the code to run the community occurrence model. The wrapper includes code to calcuate species richness, individual species occurrence rates, and detection rates for both observed and unobserved species.
 
-3. [composition_analysis]https://github.com/ezipkin/snake_community_model/tree/master/composition_analysis/): This folder contains the code to run the composition analysis using data from observed species.
+3. [composition_analysis](https://github.com/ezipkin/snake_community_model/tree/master/composition_analysis/): This folder contains the code to run the composition analysis using data from observed species.
 
 
 ## Data
