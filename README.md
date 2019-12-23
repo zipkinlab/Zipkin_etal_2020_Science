@@ -4,7 +4,7 @@
 
 ### In review
 
-### Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/xxxx)](https://doi.org/xxxxx)
+### Code/Data DOI: TBD
 
 ### Please contact the first author for questions about the code or data: Elise F. Zipkin (ezipkin@msu.edu)
 __________________________________________________________________________________________________________________________________________
@@ -13,11 +13,11 @@ ________________________________________________________________________________
 Biodiversity is declining at unprecedented rates worldwide. Yet, cascading effects of biodiversity loss on other taxa are largely unknown because baseline data are often unavailable. We document the collapse of a Neotropical snake community after the invasive fungal pathogen Batrachochytrium dendrobatidis caused a chytridiomycosis epizootic leading to the catastrophic loss of amphibians, a food source for snakes. Following mass mortality of amphibians, the snake community contained fewer species and was more homogeneous across the study site, despite no other systematic changes in the environment. The demise of the snake community following amphibian loss demonstrates the repercussive and often unnoticed consequences of the biodiversity crisis and calls attention to the invisible declines of rare and data deficient species.
 
 ## Code 
-1. [community occurrence model](https://github.com/ezipkin/snake_community_model/community_occurrence_model): Data management and manipulation code to run the community occurrence model. Also contains the code to process results. 
+1. [community occurrence model](https://github.com/ezipkin/snake_community_model/community_occurrence_model/): Data management and manipulation code to run the community occurrence model. Also contains the code to process results. 
 
 
 ## Data
-This project uses three datasets (which can all be found in the [data folder](https://github.com/ezipkin/snake_community_model/data).
+This project uses three datasets (which can all be found in the [data folder](https://github.com/ezipkin/snake_community_model/data/)).
 
 1) effort 1997 to 2012 transect surveys for model_June2018.csv
 Description: This file contains information on each transect that was surveyed (listed by surveyID) durig the two time periods of our analysis (1997-2004 and 2006-2012). The file contains the date and time that each transect was surveyed as well as if the survey occured during the am or pm (ampm), the length surveyed (Meters), number of people who participated (People), and the number or person minutes (Pminutes). This file was used in both the community occurrence model as well as the composition analysis.
