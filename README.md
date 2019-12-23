@@ -17,7 +17,7 @@ Biodiversity is declining at unprecedented rates worldwide. Yet, cascading effec
 
 
 ## Data
-This project uses three datasets (which can all be found in the [data folder](https://github.com/ezipkin/snake_community_model/data/)).
+This project uses three datasets (which can all be found in the [data folder](https://github.com/ezipkin/snake_community_model/tree/master/data)).
 
 1) effort 1997 to 2012 transect surveys for model_June2018.csv
 Description: This file contains information on each transect that was surveyed (listed by surveyID) durig the two time periods of our analysis (1997-2004 and 2006-2012). The file contains the date and time that each transect was surveyed as well as if the survey occured during the am or pm (ampm), the length surveyed (Meters), number of people who participated (People), and the number or person minutes (Pminutes). This file was used in both the community occurrence model as well as the composition analysis.
