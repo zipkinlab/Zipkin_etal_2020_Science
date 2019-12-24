@@ -2,7 +2,7 @@
 rm(list=ls())
 
 #Read in data
-bc<-read.csv("snake 1997 2012 dataset for body condition analysis_June2018.csv", 
+bc<-read.csv("snake_body_condition_data.csv", 
              stringsAsFactors = FALSE)
 
 #Generate list of species 
