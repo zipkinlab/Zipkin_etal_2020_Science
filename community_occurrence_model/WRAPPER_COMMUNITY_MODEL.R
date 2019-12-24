@@ -14,11 +14,11 @@ setwd(dirname(model))
 ###############################
 
 # Detection data
-cap<-read.csv("snake 1997 2012 dataset for model_June2018.csv", stringsAsFactors = FALSE)
+cap<-read.csv("snake_occurrence_data_from_transects.csv", stringsAsFactors = FALSE)
 colnames(cap)[1]<-c("Survey_ID")
 
 # Effort data
-eff<-read.csv("effort 1997 to 2012 transect surveys for model_June2018.csv", stringsAsFactors = FALSE)
+eff<-read.csv("transect_survey_effort.csv", stringsAsFactors = FALSE)
 colnames(eff)[1]<-c("Survey_ID")
 
 # Format the data for JAGS and create the necessary variables 
