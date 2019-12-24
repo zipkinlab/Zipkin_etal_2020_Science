@@ -6,12 +6,13 @@ rm(list=ls())
 
 # Read in the data
 setwd(dirname(file.choose())) # choose any file in the folder where all code and data are stored
-# Capture data
-cap<-read.csv("snake 1997 2012 dataset for model_June2018.csv",
-              stringsAsFactors = FALSE)
+
+# Detection data
+cap<-read.csv("snake_occurrence_data_from_transects.csv", stringsAsFactors = FALSE)
+
 # Effort data
-eff<-read.csv("effort 1997 to 2012 transect surveys for model_June2018.csv",
-              stringsAsFactors = FALSE)
+eff<-read.csv("transect_survey_effort.csv", stringsAsFactors = FALSE)
+
 
 # First column header reads in strange, so we rename it to "Survey_ID"
 colnames(cap)[1]<-c("Survey_ID")
