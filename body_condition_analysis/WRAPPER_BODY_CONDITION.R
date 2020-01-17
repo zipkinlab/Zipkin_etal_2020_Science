@@ -182,5 +182,5 @@ ylims<-matrix(c(0.4, 0.7,
   }
 
 
-# Post-processing of figure in Adobe Photoshop by Dr. Sam Rossman
+# Post-processing of figure in Adobe Photoshop by Dr. Sam Rossman and Mollie Newman.
 
