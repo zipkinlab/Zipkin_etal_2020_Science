@@ -252,7 +252,6 @@ occ.g <- ggplot() + geom_point(data=values.psi.pre, aes(x = mean, y = species), 
 occ.g
 
 # Probability of decline
-species.order
 psi.p.g <- ggplot() +    geom_point( aes(x = psi.p, y = use.species), size = 3, col="darkblue", position=position_nudge(y=0,x=0)) +
   #geom_point( aes(x = psi.p[,2], y = species$sp), size = 3, col="darkgreen", shape=17, position=position_nudge(y=0,x=0)) +
   coord_cartesian(xlim = c(0, 1)) + scale_y_discrete(limits=use.species[order(psi.p)]) + 
@@ -353,5 +352,5 @@ detection<- ggplot() + geom_point(data=p.pre, aes(x=means, y=species), color="do
   
 detection
 
-# Post-processing of figures in Adobe Photoshop by Dr. Sam Rossman
+# Post-processing of figures in Adobe Photoshop by Dr. Sam Rossman and Mollie Newman.
 
