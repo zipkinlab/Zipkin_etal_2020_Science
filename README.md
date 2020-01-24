@@ -15,7 +15,7 @@ Biodiversity is declining at unprecedented rates worldwide. Yet, cascading effec
 ## Code 
 1. [body_condition_analysis](./body_condition_analysis/): This folder contains the code to run the body condition analyses for the six species with a sufficient number of samples pre- and post-epizootic.
 
-2. [community occurrence model](./community_occurrence_model/): This folder contains the code to run the community occurrence model. The wrapper includes code to calcuate species richness, individual species occurrence rates, and detection rates for both observed and unobserved species.
+2. [community_occurrence_model](./community_occurrence_model/): This folder contains the code to run the community occurrence model. The wrapper includes code to calcuate species richness, individual species occurrence rates, and detection rates for both observed and unobserved species.
 
 3. [composition_analysis](./composition_analysis/): This folder contains the code to run the composition analysis using data from observed species.
 
