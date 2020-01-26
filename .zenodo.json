@@ -1,0 +1,15 @@
+  
+{
+    "description": "<p>This is archived code and data for the paper entitled 'Tropical snake diversity collapses after widespread amphibian loss' currently in press.</p>", 
+    "license": "other-open", 
+    "title": "zipkinlab/Zipkin_etal_InPress: Archived data/code", 
+    "version": "v1.0", 
+    "upload_type": "software", 
+    "publication_date": "2020", 
+    "creators": [ 
+        {
+            "affiliation": "Michigan State University", 
+            "name": "Elise Zipkin"
+        }
+    ]
+}
