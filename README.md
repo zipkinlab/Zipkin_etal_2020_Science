@@ -4,7 +4,7 @@
 
 ### In press
 
-### Code/Data DOI:    TBD
+### Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3628038.svg)](https://doi.org/10.5281/zenodo.3628038)
 
 ### Please contact the first author for questions about the code or data: Elise Zipkin (ezipkin@msu.edu)
 __________________________________________________________________________________________________________________________________________
