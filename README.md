@@ -21,7 +21,7 @@ Biodiversity is declining at unprecedented rates worldwide. Yet, cascading effec
 
 
 ## Data
-This project uses three datasets (all found in the [data folder](./data)).
+This project uses three datasets (all found in the [data folder](./data)):
 
 1) transect_survey_effort.csv       
 Description: This file contains a list of all standardized transect survey events conducted during the two time periods: pre-Bd (Dec 1997 - Dec 2004) and post-Bd (Sept 2006 - July 2012). Each survey event (row) was assigned a unique ID (surveyID), ordered by year (Year), month (Mo), day (Day), transect name (Transect), and time of day (AM or PM; ampm). Also included is the length surveyed (Meters), number of people who participated in the survey event (People), and the number or person minutes surveyed (Pminutes). This file was used in both the community occurrence model as well as the composition analysis.
