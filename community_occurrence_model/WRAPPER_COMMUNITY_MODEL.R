@@ -108,6 +108,7 @@ jags.out<- jags(data=sp.data, inits=inits, parameters.to.save=params, model.file
 # Run the JAGS model to convergence
 # In previous simulation studies the autojags function in jagsUI has been unreliable
 # This may take ca. 3 days
+# Add blank "STOP.txt" file to working directory to stop while loop after most recent update (see Line 128)
 counter=0
 while(max(unlist(jags.out$Rhat),na.rm = TRUE)>1.1){
   counter<-counter+1
@@ -123,7 +124,7 @@ while(max(unlist(jags.out$Rhat),na.rm = TRUE)>1.1){
   jags.out<- update(jags.out, parameters.to.save=params,
                     n.iter=ni, n.thin=nt, n.adapt=na, parallel=TRUE)
   
-  save.image(paste0("MODEL_OUT",s,".RData"))
+  save.image(paste0("MODEL_OUT",".RData"))
   if(length(grep("STOP.txt",list.files()))>0){break}
 }
 
