@@ -26,7 +26,7 @@ nPeriod<-2 # time periods (before and after Bd epizootic)
 nSamples<-nrow(eff) # total detections
 cap$Gs<-paste(cap$Genus,cap$Species) # combine genus and species names
 nSpecies<-length(unique(cap$Gs)) # number of observed species
-nZero<-130 # Number of species to augment the data with all zero encounter histories 
+nZero<-200 # Number of species to augment the data with all zero encounter histories 
 nSum<-nZero + nSpecies
 species<-data.frame(sort(unique(cap$Gs)), 1:nSpecies,stringsAsFactors = FALSE) # species list
 nTran<-length(unique(cap$Transect)) # number of transects
