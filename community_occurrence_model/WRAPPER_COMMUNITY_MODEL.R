@@ -91,8 +91,8 @@ inits <- function(){
 
 
 # Parameters to save
-params<-c("u","u.sigma","omega","w","u.mu","v.mu","u.slope","v.slope",
-          "rho", "p.diff")
+params<-c("u","u.sigma","omega","w","u.mu","v.mu","rho", "p.diff") 
+
 
 # Test JAGS run
 ni=10
