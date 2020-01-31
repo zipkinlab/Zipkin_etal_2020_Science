@@ -11,7 +11,8 @@ species.list<-unique(paste(bc$Genus, bc$Species))
 bc$Gs<-paste(bc$Genus, bc$Species)
 
 #Generate body condition metric
-#Mass divided by SVL^2 (converted mm to cm)
+#Mass divided by SVL^2 
+#We divided SVL by 10 so that body conditions values were not so small
 bc$condition<-bc$Mass/((bc$SVL/10)^2)
 
 #Omit NAs and make a new data frame bc1
