@@ -117,7 +117,7 @@ while(max(unlist(jags.out$Rhat),na.rm = TRUE)>1.1){
     nt=25
     ni=(5000*nt)/nc
   } else{
-    na=0
+    na=1
     nt=25
     ni=(5000*nt)/nc
   }
