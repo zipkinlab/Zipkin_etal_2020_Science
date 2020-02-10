@@ -2,7 +2,7 @@
 
 ### Elise F. Zipkin, Graziella V. DiRenzo, Julie M. Ray, Sam Rossman & Karen R. Lips
 
-### In press
+### Science
 
 ### Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3628038.svg)](https://doi.org/10.5281/zenodo.3628038)
 
