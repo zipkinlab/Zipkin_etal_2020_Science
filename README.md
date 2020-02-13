@@ -1,4 +1,4 @@
-# [Tropical snake diversity collapses after widespread amphibian loss](https://xxx)
+# [Tropical snake diversity collapses after widespread amphibian loss](https://science.sciencemag.org/content/367/6479/814)
 
 ### Elise F. Zipkin, Graziella V. DiRenzo, Julie M. Ray, Sam Rossman & Karen R. Lips
 
