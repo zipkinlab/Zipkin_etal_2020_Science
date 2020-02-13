@@ -8,10 +8,10 @@ rm(list=ls())
 setwd(dirname(file.choose())) # choose any file in the folder where all code and data are stored
 
 # Detection data
-cap<-read.csv("~/Zipkin_etal_InPress/data/snake_occurrence_data_from_transects.csv", stringsAsFactors = FALSE)
+cap<-read.csv("~/Zipkin_etal_2020_Science/data/snake_occurrence_data_from_transects.csv", stringsAsFactors = FALSE)
 
 # Effort data
-eff<-read.csv("~/Zipkin_etal_InPress/data/transect_survey_effort.csv", stringsAsFactors = FALSE)
+eff<-read.csv("~/Zipkin_etal_2020_Science/data/transect_survey_effort.csv", stringsAsFactors = FALSE)
 
 
 # First column header reads in strange, so we rename it to "Survey_ID"

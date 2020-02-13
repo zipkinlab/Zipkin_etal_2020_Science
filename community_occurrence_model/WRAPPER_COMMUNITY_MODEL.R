@@ -14,11 +14,11 @@ setwd(dirname(model))
 ###############################
 
 # Detection data
-cap<-read.csv("~/Zipkin_etal_InPress/data/snake_occurrence_data_from_transects.csv", stringsAsFactors = FALSE)
+cap<-read.csv("~/Zipkin_etal_2020_Science/data/snake_occurrence_data_from_transects.csv", stringsAsFactors = FALSE)
 colnames(cap)[1]<-c("Survey_ID")
 
 # Effort data
-eff<-read.csv("~/Zipkin_etal_InPress/data/transect_survey_effort.csv", stringsAsFactors = FALSE)
+eff<-read.csv("~/Zipkin_etal_2020_Science/data/transect_survey_effort.csv", stringsAsFactors = FALSE)
 colnames(eff)[1]<-c("Survey_ID")
 
 # Format the data for JAGS and create the necessary variables 
@@ -117,7 +117,7 @@ while(max(unlist(jags.out$Rhat),na.rm = TRUE)>1.1){
     nt=25
     ni=(5000*nt)/nc
   } else{
-    na=1
+    na=NULL
     nt=25
     ni=(5000*nt)/nc
   }

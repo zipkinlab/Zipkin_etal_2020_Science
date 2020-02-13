@@ -2,7 +2,7 @@
 rm(list=ls())
 
 #Read in data
-bc<-read.csv("~/Zipkin_etal_InPress/data/snake_body_condition_data.csv", 
+bc<-read.csv("~/Zipkin_etal_2020_Science/data/snake_body_condition_data.csv", 
              stringsAsFactors = FALSE)
 
 #Generate list of species 
