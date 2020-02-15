@@ -138,8 +138,6 @@ head(sort(unlist(jags.out$Rhat),decreasing = TRUE))
 ################################################################
 
 # Load output if needed
-# load("MODEL_OUT.RData")
-
 # Check for model fit using the Bayesian p-value by taking the mean of the p.diff vector of 0 and 1 values
 mean(jags.out$sims.list$p.diff)
 
